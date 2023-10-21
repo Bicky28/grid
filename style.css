@@ -1,0 +1,47 @@
+.container {
+    box-sizing: border-box;
+    max-width: 1140px;
+    padding: 12rem 0;
+    margin: 0 auto;
+    background-color: #2e3f4c;
+}
+
+.grid_layout {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+.box_color {
+    padding: 2.5rem;
+    border-radius: 16px;
+}
+
+.red {
+    background-color: rgb(178, 58, 58);
+
+}
+
+.green {
+    background-color: rgb(149, 225, 36);
+    grid-column: span 2;
+
+}
+
+.blue {
+    background-color: rgb(56, 56, 225);
+    grid-column: span 2;
+}
+
+.yellow {
+    background-color: rgb(220, 220, 58);
+
+}
+
+.tomato {
+    background-color: tomato;
+    grid-row: span 2;
+
+}
